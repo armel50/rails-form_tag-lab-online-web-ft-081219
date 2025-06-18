@@ -28,7 +28,7 @@ group :development, :test do
   gem 'byebug'
   gem 'spring'
   gem 'rspec-rails'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.5.0'
   gem 'capybara'
   gem 'database_cleaner'
 end
